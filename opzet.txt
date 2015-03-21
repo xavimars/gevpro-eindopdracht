@@ -4,3 +4,12 @@
 4. (bash)Gebruik dan het grep commando om te zoeken op woorden die eindigen op dezelfde klank
 5. Zet deze woorden in een list en vergelijk ze laatste woorden van tweets...? (ik weet niet hoe)
 6. Zodra er een match is pak ze bij elkaar en tada.
+
+===========================================================================================
+stap 1 en 2 zijn al voltooid 
+
+uitwerkng stap 3:
+
+gooi items van de lijst lastWords door de dpw.cd tot dat er een match is met if en else(?)
+wanneer er een match is pakken we het de informatie uit het vierde veld, en gooien we dat door een nieuw commando 
+om alle andere woorden te zoeken die op dezelfde klank eindigen. > stap 4. 

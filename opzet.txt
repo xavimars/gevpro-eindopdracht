@@ -1,0 +1,6 @@
+1. Pak een tweet uit bestand (als in sample.txt)
+2. Pak het laatste woord van deze string, filter op hashtags/interpunctie.
+3. (bash)Gooi dit woord door dpw.cd heen, en pak de klank na het laatste streepje (-)
+4. (bash)Gebruik dan het grep commando om te zoeken op woorden die eindigen op dezelfde klank
+5. Zet deze woorden in een list en vergelijk ze laatste woorden van tweets...? (ik weet niet hoe)
+6. Zodra er een match is pak ze bij elkaar en tada.

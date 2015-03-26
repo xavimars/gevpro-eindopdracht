@@ -1,0 +1,27 @@
+Documentatie TwieTwiets Luuk Looijenga en Xavier Marseille.
+Bij het maken van onze TwieTwiet bot hebben van een soort stappenplan gemaakt (opzet.txt). In dit stappenplan hadden wij de volgens ons benodigde handelingen in een logische volgorde gezet. Aan de hand van dit stappenplan hebben wij de functies ook geschreven.
+Alle stappen werkten uiteindelijk na een hoop trial and error goed met elkaar samen. Het was echter niet meer mogelijk om dit te verbinden met een goedwerkende reset button. Hierdoor hebben wij helaas een exit button moeten aanbrengen. Als men een nieuwe tweet wil zien moet het programma opnieuw opgestart worden.
+
+De Code:
+
+De class Scherm is de alles omvattende class van onze code.
+
+initUI is de code voor het venster dat wij gebruiken voor onze TwieTwiet. Hierin vind je locatie van de tweets en de button.
+
+getTweets: hierin openen wij het bestand waaruit wij onze tweets halen. Per line zorgen wij ervoor dat ongewenste dingen als: ‘http’ en ‘#’ worden uitgefilterd.
+
+getLastWord: in deze functie halen wij het laatste woord per regel uit de lijst met tweets.
+
+Repeat: hierin openen wij de celex met de woorden die wij moeten gebruiken om er voor te zorgen dat de tweets op elkaar rijmen. Wij kijken of het laatste woord uit de tweet ook in de lijst met de ‘rijmwoorden’ zit.
+
+getSound: in deze functie wordt gekeken of de woorden uit de tweet in het bestand met rijmwoorden staan.
+
+compare: In compare worden de twee tweets met elkaar vergeleken. Zodra er een overeenkomst is in de laatste twee woorden dan zullen de tweets worden weergeven in de interface.
+
+Om ervoor te zorgen dat alle functies goed met elkaar samen kunnen werken hebben wij de hele code in één bestand gestopt. 
+
+
+
+Interface
+
+Voor het interface hebben wij gekozen voor een simpel design. We wilden ervoor zorgen dat het duidelijk was wat de twee verschillende tweets waren. Bij deze tweets zijn de gebruikersnamen van de oorspronkelijke bedenkers van de tweets nog zichtbaar. Deze gebruikersnamen staan vooraan de tweet weergeven.
